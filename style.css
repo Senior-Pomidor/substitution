@@ -1,0 +1,40 @@
+
+form {
+  max-width: 420px;
+  width: 90%;
+  margin: 0 auto;
+  border: 3px solid rgb(233, 119, 12);
+  border-radius: 5px;
+  background-size: cover;
+  background-position: right;
+  background-repeat: repeat-y;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+label, button {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input[type="text"]{
+	width: 100%;
+  margin-bottom: 25px;
+	font-size: 16px;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+  font-size: 16px;  
+}
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" lang="ru">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- <input type="file" id="file"> -->
+  <!-- <button onclick="readFile(document.getElementById('file'))">Read!</button> -->
+  <form action="#">
+    
+    <h2 style="margin-top: 0;">Подстановка</h2>
+
+    <label for="decodedMessage-field">Шифруемое сообщение: </label> <br/>
+    <textarea class="decodedMessage" name="decodedMessage" id="decodedMessage-field" cols="30" rows="3" placeholder="Введите шифруемое сообщение"></textarea><br/>
+    <!-- <label for="dShift-field">Сдвиг: </label>
+    <input class="dShift" type="text" name="dShift" id="dShift-field" placeholder="число от 1 до 71"> <br/> -->
+    
+		<!-- <label for="crypt-alpha">Алфавит подстановки:</label>
+		<input class="crypt-alpha" type="text" id="crypt-alpha" placeholder="Введите алфавит подстановки (33 символа)"> -->
+
+    <label for="encodedMessage-field">Зашифрованное сообщение: </label> <br/>
+    <textarea class="encodedMessage" name="encodedMessage" id="encodedMessage-field" cols="30" rows="3" placeholder="Введите зашифрованное сообщение"></textarea><br/>
+    <!-- <label for="eShift-field">Сдвиг: </label>
+		<input class="eShift" type="text" name="eShift" id="eShift-field"  placeholder="число от 1 до 71"><br/> -->
+
+		<!-- <label for="decrypt-alpha">Алфавит обратной подстановки:</label>
+		<input class="decrypt-alpha" type="text" id="decrypt-alpha" placeholder="Введите алфавит обратной подстановки">
+		 -->
+
+    <button class="encode-btn">Зашифровать</button>
+    <button class="decode-btn">Расшифровать</button>
+		<!-- <button class="crack-btn">Взломать</button><br/> -->
+		<br/>
+
+    <label for="result">Результат: </label><br/>
+    <textarea class="result" name="result" id="result-field" cols="30" rows="7"></textarea>
+  </form>
+  <script src="code.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
